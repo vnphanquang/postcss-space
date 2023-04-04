@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+  ul {
+    @space-y 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  ul {
+    @space-x 24px;
+  }
+}

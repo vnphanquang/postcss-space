@@ -1,0 +1,12 @@
+main section > ul * + *, main section .another-list * + * {
+  margin-top: 12px;
+}
+
+@media (min-width: 768px) {
+  main section ul {
+    color: blue;
+  }
+  :global(main section ul * + *) {
+    margin-left: 24px;
+  }
+}

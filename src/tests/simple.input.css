@@ -1,0 +1,24 @@
+.single {
+  @space-x 40px;
+}
+
+.multiple {
+  @space-x 40px;
+  @space-y 12px;
+}
+
+ul.global {
+  @gspace-x 12px;
+  @gspace-y 12px;
+}
+
+.mix-local-n-global {
+  @space-x 12px;
+  @gspace-y 12px;
+}
+
+.with-other-props {
+  @space-x var(--var);
+  @space-y var(--var);
+  color: blue;
+}

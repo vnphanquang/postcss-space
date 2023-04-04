@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "vitest --ui --coverage",
-    "ci:test": "vitest run --coverage"
+    "ci:test": "vitest run --coverage",
+    "format": "prettier --plugin-search-dir . --write ."
   },
   "author": "Quang Phan",
   "license": "MIT",
@@ -17,7 +18,11 @@
   "devDependencies": {
     "@vitest/coverage-istanbul": "^0.29.8",
     "@vitest/ui": "^0.29.8",
+    "@vnphanquang/prettierrc": "^1.0.1",
     "postcss": "^8.4.21",
+    "postcss-js": "^4.0.1",
+    "postcss-nesting": "^11.2.2",
+    "prettier": "^2.8.7",
     "vitest": "^0.29.8"
   }
 }
