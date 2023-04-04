@@ -75,19 +75,19 @@ The following table lists test cases covered by this plugin, please refer to [te
 | with [postcss-nested] | `section { .list { @space-x 40px; } }` | [input][tests.with-postcss-nested.input] | [output][tests.with-postcss-nested.output] |
 
 [changelog]: ./CHANGELOG.md
-[tests]: ./src/space-between.test.js
+[tests]: https://github.com/vnphanquang/postcss-space-between/blob/main/src/space-between.test.js
 
-[tests.in-media-queries.input]: ./src/tests/in-media-queries.input.css
-[tests.in-media-queries.output]: ./src/tests/in-media-queries.output.css
+[tests.in-media-queries.input]: https://github.com/vnphanquang/postcss-space-between/blob/main/src/tests/in-media-queries.input.css
+[tests.in-media-queries.output]: https://github.com/vnphanquang/postcss-space-between/blob/main/src/tests/in-media-queries.output.css
 
-[tests.with-combined-selector.input]: ./src/tests/with-combined-selector.input.css
-[tests.with-combined-selector.output]: ./src/tests/with-combined-selector.output.css
+[tests.with-combined-selector.input]: https://github.com/vnphanquang/postcss-space-between/blob/main/src/tests/with-combined-selector.input.css
+[tests.with-combined-selector.output]: https://github.com/vnphanquang/postcss-space-between/blob/main/src/tests/with-combined-selector.output.css
 
-[tests.with-postcss-nesting.input]: ./src/tests/with-postcss-nesting.input.css
-[tests.with-postcss-nesting.output]: ./src/tests/with-postcss-nest.output.css
+[tests.with-postcss-nesting.input]: https://github.com/vnphanquang/postcss-space-between/blob/main/src/tests/with-postcss-nesting.input.css
+[tests.with-postcss-nesting.output]: https://github.com/vnphanquang/postcss-space-between/blob/main/src/tests/with-postcss-nest.output.css
 
-[tests.with-postcss-nested.input]: ./src/tests/with-postcss-nested.input.css
-[tests.with-postcss-nested.output]: ./src/tests/with-postcss-nest.output.css
+[tests.with-postcss-nested.input]: https://github.com/vnphanquang/postcss-space-between/blob/main/src/tests/with-postcss-nested.input.css
+[tests.with-postcss-nested.output]: https://github.com/vnphanquang/postcss-space-between/blob/main/src/tests/with-postcss-nest.output.css
 
 <!-- npm -->
 [npm.badge]: https://img.shields.io/npm/v/postcss-space-between
