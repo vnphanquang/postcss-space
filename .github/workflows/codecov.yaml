@@ -37,7 +37,7 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           directory: ./coverage
-          flags: postcss-space,unittests
+          flags: postcss-space-between,unittests
           verbose: true
           fail_ci_if_error: true
-          name: postcss-space-unit-tests
+          name: postcss-space-between-unit-tests

@@ -1,7 +1,7 @@
 import { test, expect } from 'vitest';
 import fs from 'fs';
 import { resolve } from 'path';
-import plugin from './space';
+import plugin from './space-between';
 import postcss from 'postcss';
 import postcssNesting from 'postcss-nesting';
 import postcssJs from 'postcss-js';

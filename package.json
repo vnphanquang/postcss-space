@@ -1,5 +1,5 @@
 {
-  "name": "postcss-space",
+  "name": "postcss-space-between",
   "version": "0.0.1",
   "description": "postcss plugin to add vertical / horizontal spacing between direct children",
   "main": "src/index.js",
@@ -13,7 +13,8 @@
   "keywords": [
     "postcss",
     "plugin",
-    "space"
+    "space",
+    "between"
   ],
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
@@ -30,5 +31,6 @@
   "engines": {
     "pnpm": ">=8.0.0",
     "node": ">=16.20.0"
-  }
+  },
+  "packageManager": "pnpm@8.1.1"
 }

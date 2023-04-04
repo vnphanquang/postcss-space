@@ -63,7 +63,7 @@ module.exports = function (opts = {}) {
   // Work with options here
 
   return {
-    postcssPlugin: 'postcss-space',
+    postcssPlugin: 'postcss-space-between',
     AtRule: {
       'space-x': (atRule) => {
         transform(atRule, 'x');

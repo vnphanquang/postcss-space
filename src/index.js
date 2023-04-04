@@ -1,1 +1,1 @@
-module.exports = require('./space');
+module.exports = require('./space-between');
