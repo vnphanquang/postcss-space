@@ -6,6 +6,8 @@
   "scripts": {
     "test": "vitest --ui --coverage",
     "ci:test": "vitest run --coverage",
+    "ci:version": "changeset version && pnpm install",
+    "ci:publish": "pnpm build && changeset publish && pnpm install",
     "format": "prettier --plugin-search-dir . --write ."
   },
   "author": "Quang Phan",
