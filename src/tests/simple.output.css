@@ -1,35 +1,35 @@
-.single * + * {
+.single > * + * {
   margin-left: 40px;
 }
 
-.multiple * + * {
+.multiple > * + * {
   margin-left: 40px;
 }
-.multiple * + * {
+.multiple > * + * {
   margin-top: 12px;
 }
 
-:global(ul.global * + *) {
+:global(ul.global > * + *) {
   margin-left: 12px;
 }
-:global(ul.global * + *) {
+:global(ul.global > * + *) {
   margin-top: 12px;
 }
 
-.mix-local-n-global * + * {
+.mix-local-n-global > * + * {
   margin-left: 12px;
 }
 
-:global(.mix-local-n-global * + *) {
+:global(.mix-local-n-global > * + *) {
   margin-top: 12px;
 }
 
 .with-other-props {
   color: blue;
 }
-.with-other-props * + * {
+.with-other-props > * + * {
   margin-left: var(--var);
 }
-.with-other-props * + * {
+.with-other-props > * + * {
   margin-top: var(--var);
 }

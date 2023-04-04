@@ -1,8 +1,8 @@
-:global(main section.modifier * + *) {
+:global(main section.modifier > * + *) {
   margin-left: 22px;
 }
 
-main section > ul * + *, main section .another-list * + * {
+main section > ul > * + *, main section .another-list > * + * {
   margin-top: 12px;
 }
 
@@ -10,7 +10,7 @@ main section > ul * + *, main section .another-list * + * {
   main section ul {
     color: blue;
   }
-  :global(main section ul * + *) {
+  :global(main section ul > * + *) {
     margin-left: 24px;
   }
 }

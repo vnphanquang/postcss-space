@@ -38,7 +38,7 @@ function transform(atRule, axis, config = {}) {
 
     let selector = postcss.list
       .comma(parent.selector)
-      .map((s) => `${s} * + *`)
+      .map((s) => `${s} > * + *`)
       .join(', ');
     if (global) selector = `:global(${selector})`;
 

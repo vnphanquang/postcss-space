@@ -1,11 +1,11 @@
 @media (max-width: 767px) {
-  ul * + * {
+  ul > * + * {
     margin-top: 24px;
   }
 }
 
 @media (min-width: 768px) {
-  ul * + * {
+  ul > * + * {
     margin-left: 24px;
   }
 }

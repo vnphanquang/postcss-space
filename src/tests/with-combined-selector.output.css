@@ -1,15 +1,15 @@
-ul * + *, .another-list * + * {
+ul > * + *, .another-list > * + * {
   margin-left: 40px;
 }
 
-:is(ul, .another-list) * + * {
+:is(ul, .another-list) > * + * {
   margin-left: 40px;
 }
 
-main:has(ul, .another-list) * + * {
+main:has(ul, .another-list) > * + * {
   margin-left: 40px;
 }
 
-main:has(+ :is(ul, .another-list)) * + * {
+main:has(+ :is(ul, .another-list)) > * + * {
   margin-left: 40px;
 }
