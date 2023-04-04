@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.1
+
+### Patch Changes
+
+- [`8183117`](https://github.com/vnphanquang/postcss-space-between/commit/818311798ec1ccf253d420633b9366d83cf078af) Thanks [@vnphanquang](https://github.com/vnphanquang)! - should scope selector to only direct children
+
+- [`c64d0b5`](https://github.com/vnphanquang/postcss-space-between/commit/c64d0b5d50378929ce618f7579260623656aa914) Thanks [@vnphanquang](https://github.com/vnphanquang)! - docs: use absolut path for references in README
+
 ## 0.1.0
 
 ### Minor Changes
