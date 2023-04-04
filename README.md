@@ -2,7 +2,9 @@
 
 [![github.actions.changeset.badge]][github.actions.changeset] [![codecov.badge]][codecov]
 
-[![MIT][license.badge]][license] [![npm.badge]][npm] [Changelog][changelog]
+[![MIT][license.badge]][license] [![npm.badge]][npm]
+
+## [Changelog][changelog]
 
 Postcss plugin to add postcss plugin to add vertical / horizontal spacing between direct children
 
@@ -16,6 +18,6 @@ Postcss plugin to add postcss plugin to add vertical / horizontal spacing betwee
 [license.badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license]: ./LICENSE
 [github.actions.changeset.badge]: https://github.com/vnphanquang/postcsss-space-between/actions/workflows/changeset.yaml/badge.svg
-[github.actions.changeset]: https://github.com/vnphanquang/postcsss-space-between/actions/workflows/changeset.yaml
-[codecov.badge]: https://codecov.io/github/vnphanquang/postcsss-space-between/coverage.svg?branch=main
+[github.actions.changeset]: https://github.com/vnphanquang/postcss-space-between/actions/workflows/changeset.yaml
+[codecov.badge]: https://codecov.io/gh/vnphanquang/postcss-space-between/branch/main/graph/badge.svg?token=fi6Al6JEGA
 [codecov]: https://codecov.io/github/vnphanquang/postcsss-space-between?branch=main

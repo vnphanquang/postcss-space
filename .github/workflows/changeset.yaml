@@ -5,7 +5,8 @@ on:
       - main
     paths:
       - ".changeset/**"
-      - ".github/workflows/changesets.yaml"
+      - ".github/workflows/changeset.yaml"
+      - "package.json"
   workflow_dispatch:
 
 env:

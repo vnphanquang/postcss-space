@@ -10,6 +10,14 @@
     "ci:publish": "pnpm build && changeset publish && pnpm install",
     "format": "prettier --plugin-search-dir . --write ."
   },
+  "files": [
+    "src/index.js",
+    "src/space-between.js",
+    "CHANGELOG.md",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
   "author": "Quang Phan",
   "license": "MIT",
   "keywords": [
