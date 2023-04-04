@@ -1,8 +1,6 @@
 # postcss-space-between
 
-[![github.actions.changeset.badge]][github.actions.changeset] [![codecov.badge]][codecov]
-
-[![MIT][license.badge]][license] [![npm.badge]][npm]
+[![github.actions.changeset.badge]][github.actions.changeset] [![codecov.badge]][codecov] [![MIT][license.badge]][license] [![npm.badge]][npm]
 
 ## [Changelog][changelog]
 
@@ -98,7 +96,7 @@ The following table lists test cases covered by this plugin, please refer to [te
 <!-- heading badge -->
 [license.badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license]: ./LICENSE
-[github.actions.changeset.badge]: https://github.com/vnphanquang/postcsss-space-between/actions/workflows/changeset.yaml/badge.svg
+[github.actions.changeset.badge]: https://github.com/vnphanquang/postcss-space-between/actions/workflows/changeset.yaml/badge.svg?branch=main
 [github.actions.changeset]: https://github.com/vnphanquang/postcss-space-between/actions/workflows/changeset.yaml
 [codecov.badge]: https://codecov.io/gh/vnphanquang/postcss-space-between/branch/main/graph/badge.svg?token=fi6Al6JEGA
 [codecov]: https://codecov.io/github/vnphanquang/postcsss-space-between?branch=main
