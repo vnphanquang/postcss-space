@@ -1,9 +1,10 @@
-import { test, expect } from 'vitest';
+import { test, expect, describe } from 'vitest';
 import fs from 'fs';
 import { resolve } from 'path';
 import plugin from './space-between';
 import postcss from 'postcss';
 import postcssNesting from 'postcss-nesting';
+import postcssNested from 'postcss-nested';
 import postcssJs from 'postcss-js';
 
 /**
@@ -54,12 +55,37 @@ test('usage in media queries', async () => {
   compareCSS(output, result.css);
 });
 
-test('usage with postcss-nesting', async () => {
+describe('usage with postcss-nesting', async () => {
   const input = readCSS('./tests/with-postcss-nesting.input.css');
-  const output = readCSS('./tests/with-postcss-nesting.output.css');
+  const output = readCSS('./tests/with-postcss-nest.output.css');
 
-  const processor = postcss([postcssNesting, plugin()]);
-  const result = await processor.process(input, { from: undefined });
+  test('| defined before postcss-nesting', async () => {
+    const processor = postcss([plugin(), postcssNesting]);
+    const result = await processor.process(input, { from: undefined });
+    compareCSS(output, result.css);
+  });
 
-  compareCSS(output, result.css);
+  test('| defined after postcss-nesting', async () => {
+    const processor = postcss([postcssNesting, plugin()]);
+    const result = await processor.process(input, { from: undefined });
+    compareCSS(output, result.css);
+  });
 });
+
+describe('usage with postcss-nested', async () => {
+  const input = readCSS('./tests/with-postcss-nested.input.css');
+  const output = readCSS('./tests/with-postcss-nest.output.css');
+
+  test('| defined before postcss-nested', async () => {
+    const processor = postcss([plugin(), postcssNested]);
+    const result = await processor.process(input, { from: undefined });
+    compareCSS(output, result.css);
+  });
+
+  test('| defined after postcss-nested', async () => {
+    const processor = postcss([postcssNested, plugin()]);
+    const result = await processor.process(input, { from: undefined });
+    compareCSS(output, result.css);
+  });
+});
+

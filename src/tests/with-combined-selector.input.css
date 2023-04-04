@@ -1,3 +1,15 @@
 ul, .another-list {
   @space-x 40px;
 }
+
+:is(ul, .another-list) {
+  @space-x 40px;
+}
+
+main:has(ul, .another-list) {
+  @space-x 40px;
+}
+
+main:has(+ :is(ul, .another-list)) {
+  @space-x 40px;
+}

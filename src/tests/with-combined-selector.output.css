@@ -1,3 +1,15 @@
 ul * + *, .another-list * + * {
   margin-left: 40px;
 }
+
+:is(ul, .another-list) * + * {
+  margin-left: 40px;
+}
+
+main:has(ul, .another-list) * + * {
+  margin-left: 40px;
+}
+
+main:has(+ :is(ul, .another-list)) * + * {
+  margin-left: 40px;
+}

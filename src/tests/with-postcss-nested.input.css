@@ -3,11 +3,11 @@ main section {
     @gspace-x 22px;
   }
 
-  & > ul, & .another-list {
+  > ul, .another-list {
     @space-y 12px;
   }
   @media (min-width: 768px) {
-    & ul {
+    ul {
       color: blue;
       @gspace-x 24px;
     }
