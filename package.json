@@ -2,7 +2,7 @@
   "name": "postcss-space-between",
   "version": "0.1.2",
   "description": "postcss plugin to add vertical / horizontal spacing between direct children",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "vitest --ui --coverage",
     "ci:test": "vitest run --coverage",
@@ -11,8 +11,8 @@
     "format": "prettier --plugin-search-dir . --write ."
   },
   "files": [
-    "src/index.js",
-    "src/space-between.js",
+    "lib/index.js",
+    "lib/space-between.js",
     "CHANGELOG.md",
     "README.md",
     "LICENSE",
