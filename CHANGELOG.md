@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2
+
+### Patch Changes
+
+- [`34a3042`](https://github.com/vnphanquang/postcss-space-between/commit/34a3042e8bd89d736c0a5355e21869ac9e683927) Thanks [@vnphanquang](https://github.com/vnphanquang)! - should find the root recursively (previously only check for direct parent)
+
 ## 0.1.1
 
 ### Patch Changes
