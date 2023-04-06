@@ -4,11 +4,14 @@ const postcss = require('postcss');
 
 /**
  * @param {import('postcss').Node} node
+ * @returns {import('postcss').Container}
  */
 function findRootOrMediaNode(node) {
   const parent = node.parent;
-  if (parent.type === 'root' || (parent.type === 'atrule' && parent.name === 'media'))
+  if (parent.type === 'root' || (parent.type === 'atrule' && parent.name === 'media')) {
     return parent;
+  }
+  return findRootOrMediaNode(parent);
 }
 
 /**
