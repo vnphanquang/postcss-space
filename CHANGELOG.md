@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3
+
+### Patch Changes
+
+- [`b4b2724`](https://github.com/vnphanquang/postcss-space-between/commit/b4b2724148182f42debb4ba3fbe4005905aaf804) Thanks [@vnphanquang](https://github.com/vnphanquang)! - move src -> lib
+
 ## 0.1.2
 
 ### Patch Changes
