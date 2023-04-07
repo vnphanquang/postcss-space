@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0
+
+### Minor Changes
+
+- [`5ef5cd7`](https://github.com/vnphanquang/postcss-space-between/commit/5ef5cd72206ff39757a38433f4d99d6eb7249f44) Thanks [@vnphanquang](https://github.com/vnphanquang)! - adjustments to adhere to [postcss plugin guidelines](https://github.com/postcss/postcss/blob/main/docs/guidelines/plugin.md)
+
 ## 0.1.3
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "postcss-space-between",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "postcss plugin to add vertical / horizontal spacing between direct children",
   "main": "lib/index.js",
   "scripts": {
